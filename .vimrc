@@ -4,6 +4,8 @@ syntax enable
 colorscheme kalisi
 set background=dark
 
+call pathogen#infect()
+call pathogen#helptags()
 
 " show line numbers
 set number
