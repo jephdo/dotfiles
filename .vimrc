@@ -91,6 +91,7 @@ nnoremap <C-H> <C-W><C-H>
 
 Plugin 'scrooloose/nerdtree'
 let NERDTreeIgnore=['\.pyc$', '\~$']
+map <C-n> :NERDTreeToggle<CR> "Map ctrl-n to open/close nerdtree
 
 
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
