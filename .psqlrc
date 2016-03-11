@@ -14,3 +14,8 @@
 
 -- to show how long queries take
 \timing
+
+-- makes the prompt look like 
+-- [trident]:5432 john@orange=>
+\set PROMPT1 '%M:%> %n@%/%R%#%x '
+\set PROMPT2 '%M %n@%/%R %# '
