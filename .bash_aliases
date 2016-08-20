@@ -4,7 +4,7 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
 alias now='date +"%T"'
-
+alias ppjson='python -m json.tool'
 alias on35='source ~/virtualenvs/env35/bin/activate'
 
 
