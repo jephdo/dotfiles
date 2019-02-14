@@ -28,6 +28,11 @@ alias chr='chmod 644'
 
 export WORKON_HOME=$HOME/.virtualenvs
 
+code2pdf() {
+  enscript -2rG --line-numbers -p $2 --highlight=c \
+  --color=1 -c $1
+}
+
 bytestohr()
 {
     # Convert input parameter (number of bytes) 
